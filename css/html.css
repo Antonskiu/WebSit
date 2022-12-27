@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+:root{
+    --bg: #489CDF;
+    --bd: #0071FF;
+    --bl: #000;
+}
+
+body {
+    background: rgb(109, 230, 255);
+    background: linear-gradient(90deg, rgba(109, 230, 255, 1) 12%, rgba(74, 74, 255, 1) 100%);
+}
+
+.center{
+    text-align: center;
+    font-size: 3vw;
+}
+
+a:hover{
+    color: gray;
+    font-size: large;
+}
+
+.my {
+    padding: 1%;
+    margin: 1.5%;
+    border: 6px solid var(--bd);
+    border-radius: 10px;
+    font-size: medium;
+    background: gold;
+}
+
+.video {
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.audio{
+    margin: 1%;
+}
+
+body > div > div.img_linl > p:nth-child(2) > a > img{
+    border-radius: 10px;
+}
+
+.form {
+    padding: 1%;
+    margin: 1.5%;
+    border-radius: 10px;
+    font-size: medium;
+    background: var(--bg);
+}
+
+input{
+    border-radius: 10px;
+}

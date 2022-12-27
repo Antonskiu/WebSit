@@ -1,0 +1,14 @@
+.blend{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.blend img{
+	position: absolute;
+}
+
+.blend h1{
+	font-size: 150;
+	mix-blend-mode: overlay;
+}

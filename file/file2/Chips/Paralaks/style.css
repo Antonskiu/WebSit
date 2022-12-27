@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.paralax{
+	background-image: url(https://vjoy.cc/wp-content/uploads/2020/10/dlya_dushi_35_13130628.jpg);
+	/*минимальная висота*/
+	min-height: 500px;
+	/*ооздаём ефект паралакс*/
+	/*будет ли прокручиваться фоновое изображение вместе с содержимим елемента*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*маштабирует картинку согласно параметрам*/
+	background-size: cover;
+}
+
+.content{
+	height: 600px;
+	background-color: #8E8AC6;
+	font-size: 40px;
+}

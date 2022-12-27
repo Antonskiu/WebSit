@@ -1,0 +1,20 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+nav{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.container.about{
+	display: flex;
+}
+
+.container.about > img{
+	border-radius: 50%;
+	width: 20%;
+	height: 100%;
+	margin-top: 10%; 
+	margin-right: 25%; 
+}

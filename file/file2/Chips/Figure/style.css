@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+.two{
+    margin-left: 400px;
+    margin-top: -600px;
+    display: flex;
+}
+.three{
+    margin-left: 600px;
+    margin-top: -900px;
+    display: flex;
+}
+
+/* квадрат */
+.square{
+    height: 150px;
+    width: 150px;
+    background: rgb(122, 84, 172);
+}
+
+/* премоугольник */
+.rectangle{
+    height: 150px;
+    width: 300px;
+    background: rgb(122, 84, 172);
+
+    margin-top: 10px;
+}
+
+/* круг */
+.circle{
+    height: 150px;
+    width: 150px;
+    background: rgb(122, 84, 172);
+    border-radius: 100%;
+
+    margin-top: 10px;
+}
+
+/* овал */
+.oval{
+    height: 150px;
+    width: 300px;
+    background: rgb(122, 84, 172);
+    border-radius: 100%;
+
+    margin-top: 10px;
+}
+
+/* треугольник вверх */
+.triangle-up{
+    width: 0;
+    height: 0;
+    /* цвета и размеры полей */
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+/* треугольник в низ */
+.triangle-down{
+    width: 0;
+    height: 0;
+    /* цвета и размеры полей */
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent;
+    border-top: 100px solid green;
+
+    margin-top: 10px;
+}
+
+/* треугольник в лево */
+.triangle-left{
+    width: 0;
+    height: 0;
+    /* цвета и размеры полей */
+    border-top: 50px solid transparent;
+    border-right: 100px solid green;
+    border-bottom: 50px solid transparent;
+
+    margin-top: 10px;
+}
+
+/* треугольник в право */
+.triangle-right{
+    width: 0;
+    height: 0;
+    /* цвета и размеры полей */
+    border-top: 50px solid transparent;
+    border-left: 100px solid green;
+    border-bottom: 50px solid transparent;
+
+    margin-top: 10px;
+}
+
+/* паралеограм */
+.parallelogram{
+    width: 150px;
+    height: 100px;
+    background: green;
+    /* градус наклона */
+    transform: skew(20deg);
+
+    margin-top: 10px;
+}
+
+.trapezoid{
+    width: 150px;
+    height: 150px;
+    border-bottom: 100px solid green;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    margin-top: 50%; 
+}
+
+/* при наведении меняем что-то */
+.trapezoid:hover{
+    border-bottom: 100px solid red;
+}

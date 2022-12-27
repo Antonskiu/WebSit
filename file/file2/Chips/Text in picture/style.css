@@ -1,0 +1,11 @@
+.elips img{
+	/*создаём часть елемента в которой оно будет видимо*/
+	clip-path:ellipse(200px 200px at 100px 100px) ;
+}
+
+.cirkle img {
+	border-radius: 50%;
+	margin-top: 10;
+	position: relative;
+	top: 10%;
+}

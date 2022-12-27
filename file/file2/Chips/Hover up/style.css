@@ -1,0 +1,14 @@
+.imeges{
+	display: flex;
+	justify-content: center;
+}
+
+.imeges > img {
+	width: 70%;
+	margin: 1%;
+	border-radius: 50%
+}
+
+ img:hover{
+ 	transform: scale(1.1);
+ }
